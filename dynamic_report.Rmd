@@ -71,7 +71,7 @@ total_car_obs <-latest_data$car_colour %>%
 most_people <- latest_data$num_people %>% 
   max(na.rm = TRUE) 
 ```
-This report analyses observational data collected from the different car types and their visual characteristics. The observations were taken from around the University of Auckland campus. My first graph specifically looks at the car brands around campus while my second graph identifies how many different car types had external damage.
+This report analyses observational data collected from the different car types and their visual characteristics. The observations were taken from around the University of Auckland campus. The data that was collected was the car make or brand, the type of car (e.g., hatchback, SUV, ute), the colour, how many people were inside each vehicle, and whether there was any visible external damage. My first graph specifically looks at the car brands around campus while my second graph identifies how many different car types had external damage.
 
 ## Car obersevation graphs
 # Graph 1
